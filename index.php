@@ -14,6 +14,9 @@ $requete = "SELECT * FROM livres";
     <title>Ajouter un livre</title>
 </head>
 <body>
+<a href="liste_livres.php" class="text-blue-500 hover:text-blue-600 underline font-semibold">
+   voir les livre
+</a>
     <h1 class="text-center font-bold text-3xl mb-4 mt-4">Ajouter un livre</h1>
     <form method="POST" action="ajouter_livre.php" class="max-w-lg mx-auto bg-gray-100/30 p-6 rounded-lg shadow-lg">
     <label for="titre" class="block text-gray-700 font-semibold mb-2">Titre :</label>

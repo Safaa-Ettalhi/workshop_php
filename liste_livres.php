@@ -14,6 +14,10 @@ $requete = "SELECT * FROM livres";
     <title>Ajouter un livre</title>
 </head>
 <body>
+<a href="index.php" class="text-blue-500 hover:text-blue-600 underline font-semibold">
+    Retour au formulaire
+</a>
+
     <!-- fetch_assoc -->
     <h2  class="text-center font-bold text-3xl mb-4 mt-4">Affichage avec fetch_assoc :</h2>
     <table class="min-w-full table-auto border-collapse bg-white shadow-md rounded-lg">
